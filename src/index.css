@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Taviraj', serif;
+}
+@layer base{
+    button{
+        @apply border border-black rounded-xl px-5 py-1
+    }
+}
